@@ -1,0 +1,26 @@
+# Ignore Python bytecode files
+__pycache__/
+*.pyc
+
+# Ignore Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore virtual environment directories
+venv/
+env/
+
+# Ignore large data files and dataset
+data/
+*.h5
+
+# Ignore model files (model checkpoints)
+*.pt
+
+# Ignore results folder (outputs, logs, etc.)
+results/
+
+# Ignore notebooks folder (Jupyter notebooks)
+notebooks/
+
+# Ignore system files (e.g., .DS_Store on macOS)
+.DS_Store
